@@ -8,6 +8,10 @@ Week 1 - Problem Solving(문제해결기법) 1주차.
   * BigInteger 를 이용.<br><br>
 
 * 최대값 탐색.
+
+   * 총 비교 횟수(n=5): 5
+   * 총 비교 횟수(n=1000): 1000<br>
+   * **O(n)**
  ```java  
   public class Test {
     public static void main(String[] args) {
@@ -23,10 +27,6 @@ Week 1 - Problem Solving(문제해결기법) 1주차.
     }
   }
   ```
-  * 총 비교 횟수(n=5): 5
-  * 총 비교 횟수(n=1000): 1000<br>
-
-  * **O(n)**<br><br>
 
 * 정렬 알고리즘과 시간복잡도.
 
