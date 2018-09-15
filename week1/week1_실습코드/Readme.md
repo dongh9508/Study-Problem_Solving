@@ -17,8 +17,8 @@ Week 1 - Problem Solving(문제해결기법) 1주차 실습 문제.
   ```java
   public class Test {
     public static void main(String[] args) {
-      int n=987654321;
-      int k=4;
+      int n=20000000000; // 200억
+      System.out.println(n);
     }
   }
   ```
