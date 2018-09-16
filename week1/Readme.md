@@ -12,21 +12,22 @@ Week 1 - Problem Solving(문제해결기법) 1주차.
    * 총 비교 횟수(n=5): 5
    * 총 비교 횟수(n=1000): 1000<br>
    * **O(n)**
- ```java  
-  public class Test {
-    public static void main(String[] args) {
-      int n[]= {32,54,65,21,10};
-      int max=n[0];
+   
+   ```java  
+    public class Test {
+      public static void main(String[] args) {
+        int n[]= {32,54,65,21,10};
+        int max=n[0];
 
-      for (int i = 0; i < n.length; i++) {
-        if(n[i]>max) 
-          max=n[i];
-      }
+        for (int i = 0; i < n.length; i++) {
+          if(n[i]>max) 
+            max=n[i];
+        }
 
-      System.out.println(max);
+        System.out.println(max);
+      } 
     }
-  }
-  ```
+   ```
 
 * 정렬 알고리즘과 시간복잡도.
 
