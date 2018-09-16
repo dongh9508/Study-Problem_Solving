@@ -42,6 +42,7 @@ Week 2 - Problem Solving(문제해결기법) 2주차.
   list.add(4);
   ```
 <br>
+
 * 연결리스트 내 임의 위치 자료 접근 시간: O(n)
   * ![3](https://user-images.githubusercontent.com/33312179/45533535-f8fce900-b832-11e8-9dbe-922ab613ce4e.jpg)  위치 자료 접근 시간 : 1
   * ![4](https://user-images.githubusercontent.com/33312179/45533561-0f0aa980-b833-11e8-98af-657255fc3f63.jpg)  위치 자료 접근 시간 : 2
