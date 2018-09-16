@@ -10,7 +10,7 @@ Week 2 - Problem Solving(문제해결기법) 2주차.
     n[1]=8;
     n[2]=4;
   ```
-<br><br>
+<br>
 * 배열 내 임의 위치 자료 접근 시간 : O(1)
   * 인덱스 0 위치 자료 접근 시간: 8000+0*4 -> 덧셈 1회, 곱셈 1회
   * 인덱스 1 위치 자료 접근 시간: 8000+1*4 -> 덧셈 1회, 곱셈 1회
@@ -26,7 +26,7 @@ Week 2 - Problem Solving(문제해결기법) 2주차.
     for (int i = 0; i < 5; i++) 
       n[i] = i + 1;
   ```    
-<br><br>
+<br>
 * 연결리스트(linked list)
   * 연결리스트 내 임의 위치 상수 시간 접근 불가.
   * k번째 자료 접근 위해 head부터 k번 다음 자료 위치로 이동 필요.
@@ -38,7 +38,7 @@ Week 2 - Problem Solving(문제해결기법) 2주차.
   list.add(8);
   list.add(4);
   ```
-<br><br>
+<br>
 * 연결리스트 내 임의 위치 자료 접근 시간: O(n)
   * ![3](https://user-images.githubusercontent.com/33312179/45533535-f8fce900-b832-11e8-9dbe-922ab613ce4e.jpg)  위치 자료 접근 시간 : 1
   * ![4](https://user-images.githubusercontent.com/33312179/45533561-0f0aa980-b833-11e8-98af-657255fc3f63.jpg)  위치 자료 접근 시간 : 2
