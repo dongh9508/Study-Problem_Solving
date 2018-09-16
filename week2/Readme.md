@@ -3,6 +3,7 @@ Week 2 - Problem Solving(문제해결기법) 2주차.
 * 자바 배열(array).
   * 연속된(contiguous) 메모리 공간 차지, 인덱스(index)로 위치 식별
   <br>
+
   ```java
     int n[] = new int[100];
     n[0]=5;
@@ -30,6 +31,7 @@ Week 2 - Problem Solving(문제해결기법) 2주차.
   * 연결리스트 내 임의 위치 상수 시간 접근 불가.
   * k번째 자료 접근 위해 head부터 k번 다음 자료 위치로 이동 필요.
   <br>
+
   ```java  
   LinkedList<Integer> list = new LinkedList<>();
   list.add(5);
@@ -44,7 +46,7 @@ Week 2 - Problem Solving(문제해결기법) 2주차.
   * …
   * 마지막 n번째 위치 자료 접근 시간: n
   * 최악의 경우 n번 이동 필요: O(n)
-  * 배열 내 자료 위치에 무관하게 항상 일정한 시간 소요<br><br>
+  * 배열 내 자료 위치에 무관하게 항상 일정한 시간 소요
 <br><br>
 * 연결리스트 첫 위지 자료 삽입 : O(1)
   ```java
