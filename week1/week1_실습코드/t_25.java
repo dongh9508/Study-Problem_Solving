@@ -1,15 +1,12 @@
 package problem_solving.chap1;
 
 import java.util.*;
-import java.io.*;
 
 public class t_25 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args)  {
         Random ran = new Random();
-        int n = Integer.valueOf(in.readLine());
-        int[] arr = new int[n];
-        double result = 0.0;
+        int n = ran.nextInt(10)+5;
+        Integer[] arr = new Integer[n];
 
         for(int i=0; i<n; i++) {
             arr[i] = ran.nextInt(10);
@@ -26,12 +23,12 @@ public class t_25 {
         for(int i=0; i<n; i++) {
             for(int j=i+1; j<n; j++) {
                 if(arr[i] == arr[j])
-                    arr[j] = 0;
+                    arr[j] = null;
             }
         }
 
         for(int i=0; i<n; i++) {
-            if(arr[i] != 0)
+            if(arr[i] != null)
                 System.out.print(arr[i] + " ");
         }
     }
