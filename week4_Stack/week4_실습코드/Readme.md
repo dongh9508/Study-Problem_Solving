@@ -153,6 +153,33 @@ Week 4 - Problem Solving(문제해결기법) 4주차 실습 문제.
     }
   }
   ```
+<br>
+
+### 7. t_19.java
+  > n개 일별 주가(stock price)에 대해 특정 day의 span은 현재 day의 주가보다 크지 않은 연속된 이전 day들(현재 day 포함)의 최대 개수이다. stack span problem 은 n개 일별 주가에 대해 각 day의 span을 계산하는 것이다(아래 예 참조). stock span problem을 해결하는 아래 코드를 완성하시오. (참고: https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#The_Stock_Span_Problem)
+
+  #### A
+  > 구현 방법 #1 (시간복잡도 O(n2): n개 일별 주가가 배열에 저장되어 있다고 가정할 때 배열 인덱스를 day 식별자로 고려하여, 각 day에 대해 현재 day의 주가보다 크지 않은 주가를 보인 연속된 이전 day들의 수(현재 day 포함)를 현재 day의 span에 저장한다.
+
+  #### B
+  > 구현 방법 #2 (시간복잡도 O(n)): n개 일별 주가가 배열에 저장되어 있다고 가정할 때 배열 인덱스를 day 식별자로 고려하여, 시작 day부터 "각 day에 대해 현재 day의 주가보다 큰 주가를 보이는 day가 스택의 top에서 발견될 때까지 스택을 pop한 후, 현재 day와 스택의 top에 있는 day와의 일수 차이를 현재 day의 span에 저장한 다음, 현재 day를 스택에 push하는 작업"을 반복한다.
+
+  ```
+  - 일별 주가:
+  100,90,80,70,85,95,110,120
+  - stock span:
+  1, 1, 1, 1, 3, 5, 7, 8
+  ```
+
+  ```java
+  public class Test {
+    public static void main(String[] args) {
+      int price[]= {100,90,80,70,85,95,110,120};
+      int span[]=new int[price.length];
+      System.out.println(Arrays.toString(span));
+    }
+  }
+  ```
 
 
 
